@@ -9,9 +9,9 @@ void setup() {
   pinMode(elay, OUTPUT);
   pinMode(DirPin, OUTPUT);
   pinMode(StepPin, OUTPUT);
-  Serial.begin(9600); // Initialize serial communication
+  Serial.begin(9600); 
   
-  int numCycles = 11; // Set the desired number of cycles
+  int numCycles = 11; 
 
   for (int i = 0; i < numCycles; i++) {
     {
