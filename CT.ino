@@ -41,8 +41,7 @@ void setup() {
   
 }
 
-void loop() {
-   digitalWrite(elay, HIGH);
+void loop() ;
    digitalWrite(Relay, HIGH);
    digitalWrite(elay, LOW);
    digitalWrite(Relay, LOW);
