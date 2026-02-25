@@ -43,8 +43,10 @@ void setup() {
 }
 
 void loop() {
+{
    digitalWrite(elay, LOW);
    digitalWrite(Relay, LOW);
    digitalWrite(Relay, LOW);
    digitalWrite(elay, LOW);
+}
 }
