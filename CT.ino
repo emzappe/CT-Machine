@@ -21,6 +21,7 @@ void setup() {
     digitalWrite(Relay, HIGH);
     delay(500);
     digitalWrite(elay, HIGH);
+    delay(1500);
     digitalWrite(Relay, LOW);
     digitalWrite(elay, LOW);
   }
